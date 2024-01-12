@@ -1,0 +1,376 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+.banner-one{
+ height: 70vh;
+ padding: 20px 130px 20px 100px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ background-image: url('images/gims-header-banner.jpg');
+ background-size: cover;
+ background-position: top;
+}
+
+.banner_info_wrapper{
+ background: rgba(29, 117, 185, 0.7);
+ box-shadow: 0px 0px 12px rgba(0, 0, 0, .1);
+ border-radius: 10px;
+ max-width: 500px;
+ color: #fff;
+ padding: 40px 40px;
+ box-sizing: border-box;
+ margin-top: 50px ;
+ margin-left: 50px ;
+ 
+}
+
+.banner-one-col-1{
+ font-family: 'Montserrat', sans-serif;
+ width: 60%;
+ padding: 40px;
+}
+
+.banner_info>h2:nth-of-type(1){
+ color: rgb(241, 198, 22);
+ font-size: 30px;
+ font-weight: 600;
+}
+
+
+.banner-one-col-2{
+ width: 374px;
+ background-color: #fff;
+ padding: 20px;
+}
+
+.news {
+ font-size: 21px;
+ font-weight: 500;
+ line-height: 28px;
+}
+
+
+/* about-sai */
+
+.about-sai{
+ font-family: 'Montserrat', sans-serif;
+ color: #000;
+ display: flex;
+ padding: 10px 120px 10px 90px;
+ justify-content: space-between;
+}
+
+.about-sai-col-1{
+ margin-left: 50px;
+ width: 450px;
+ padding-right: 20px;
+}
+
+.about-sai-col-1 img{
+ width: 100%;
+}
+
+.about-sai-col-2{
+ width: 55%;
+ padding-top: 30px;
+}
+
+.about-sai-col-2>div:nth-of-type(1){
+ font-size: 34px;
+ font-weight: 800;
+ margin-bottom: 10px;
+}
+
+.about-sai-col-2 hr{
+ margin: 20px 0;
+ border-top: 3.5px dashed #5990a2;
+ background-color: #fff;
+ opacity: 1;
+}
+
+.about-sai-col-2>div:nth-of-type(2){
+ font-size: 21px;
+ font-weight: 500;
+ line-height: 28px;
+}
+
+.about-sai-col-1-ranked{
+ display: grid;
+ grid-template-columns: repeat(6, 1fr);
+ gap: 20px;
+}
+
+.about-sai-col-1-ranked-item img{
+ width: 100%;
+}
+
+/* course-offered */
+.course-offered{
+ font-family: 'Montserrat', sans-serif;
+ color: #000;
+ display: flex;
+ padding: 10px 120px;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.course-offered-col-1{
+ width: 523px;
+ text-align: center;
+}
+
+.course-offered-col-1>div:nth-of-type(1){
+ font-size: 25px;
+ font-weight: 700;
+ line-height: 35px;
+ margin-bottom: 20px;
+}
+
+.course-offered-col-1 button{
+ padding: 12px 20px;
+ background-color: #5990a2;
+ border-style: none;
+ color: #fff;
+ border-radius: 25px;
+ font-size: 22px;
+ font-weight: 600;
+}
+
+.course-offered-col-2{
+ width: 730.5px;
+ display: flex;
+ justify-content: space-between;
+}
+
+.course-offered-col-2>div{
+ width: 337px;
+ box-shadow: 0 0 15px #b2bec3;
+ border-radius: 15px;
+}
+
+.course-offered-col-2>div img{
+ width: 100%;
+ height: 200px;
+ margin-bottom: 10px;
+ border-top-right-radius: 15px;
+ border-top-left-radius: 15px;
+}
+
+.course-offered-col-2>div ul{
+ margin-left: 20px;
+ font-size: 17px;
+ font-weight: 500;
+ line-height: 25px;
+}
+
+
+/* placement__title */
+
+.placement{
+ margin-top: 30px
+}
+
+.placement__title{
+ font-family: 'Montserrat', sans-serif;
+ text-align: center;
+ font-size: 32px;
+ font-weight: 700;
+ margin-bottom: 20px;
+ color: #000;
+}
+
+.placement-slider-wrapper{
+ width: 100%;
+ margin: auto;
+ height: 80vh;
+ display: inline-block;
+ overflow: hidden;
+}
+
+.placed-students {
+ width: 30%;
+ height: fit-content;
+ height: ;
+ position: relative;
+ left: 10%;
+
+}
+
+.placement-img {
+ width: 50%;
+ position: relative;
+ left: 45vw;
+ bottom: 65vh;
+}
+/* testimonial */
+
+.testimonial{
+ background-color: #F1F1F1;
+ padding: 60px 0;
+ font-family: 'Montserrat', sans-serif;
+ text-align: center;
+ color: #000;
+ position: relative;
+}
+
+.download__placement__btn__desktop{
+ position: absolute;
+ top: -25px;
+ left:50%;
+ transform: translateX(-50%);
+ width: max-content;
+}
+
+.download__placement__btn__desktop button{
+ border-style:none;
+ background-color: #5990A2;
+ padding: 12px 25px;
+ border-radius:25px;
+ color: #fff;
+ font-size: 18px;
+ font-weight: 600;
+}
+
+.testimonials_title{
+ font-size: 38px;
+ font-weight: 700;
+ margin-bottom: 50px
+}
+
+.testimonials_container-wrapper{
+ width: 100%;
+ margin: auto;
+ height: 400px;
+ display: grid;
+ place-items:center;
+ position: relative;
+ overflow: hidden;
+}
+
+.testimonial_container{
+ display: flex;
+ width: calc(500px*12);
+ animation: scroll 40s linear infinite;
+}
+
+.testimonial-item{
+ width: 500px;
+ margin-right: 60px;
+ border-radius: 25px;
+ background: #fff;
+ box-shadow: 0 0px 30px #95a5a6;
+ position: relative;
+ padding: 60px 20px 20px 20px;
+
+}
+
+.testimonial-item img{
+ width: 100px;
+ height: 100px;
+ border-radius: 50%;
+ position: absolute;
+ top: -50px;
+ left:50%;
+ transform: translateX(-50%);
+}
+
+.testimonial_name{
+ font-size: 14px;
+ font-weight: 500;
+ margin-bottom: -10px
+}
+
+.left-side-quote{
+ text-align: left;
+ font-size: 50px;
+ font-weight: 600;
+ color: #f39c12;
+}
+
+.right-side-quote{
+ text-align: right;
+ font-size: 50px;
+ font-weight: 600;
+ color: #f39c12;
+}
+
+/* ----------footer---------------- */
+footer{
+  margin-top: 90px;
+  padding: 0 150px 0 70px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer_link_container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr)
+}
+
+.footer_link_container ul:nth-of-type(1){
+  text-align: center;
+}
+
+.footer_link_container ul:nth-of-type(2), ul:nth-of-type(3), ul:nth-of-type(4){
+  visibility: hidden;
+}
+
+.footer_link_container ul{
+  list-style: none;
+  line-height: 32px
+}
+
+.footer_link_container ul img{
+  width: 350px;
+  margin-bottom: 20px;
+}
+
+.footer_link_container ul button{
+  background: linear-gradient(white, white) padding-box,
+             linear-gradient(to right, #eccc68, #3742fa) border-box;
+ border-radius: 50em;
+ border: 3px solid transparent;
+  font-weight: 600;
+   color: #2d3436;
+   padding: 6px 20px;
+   background-color: #fff;
+}
+
+.footer_link_container ul span{
+  font-size: 16px;
+  font-weight: 600;
+  color: #2d3436;
+}
+
+.footer_link_container ul li{
+   color: #636e72;
+}
+
+.footer_link_container ul a{
+  color: #636e72;
+}
+
+.footer_link_container ul .fa-brands{
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.newimgs {
+ position: relative;
+ left: 20px;
+}
+.fancyimg{
+ /* position: relative;
+ left: 20px; */
+	box-shadow: 0 0 12px #0003;
+    border-radius: 0 40px 40px 40px;
+}
+
+.newimgs{
+ bottom: 30px;
+    width: 200px;
+}
+
